@@ -4,7 +4,7 @@ import "./checkout-header.css";
 function CheckoutPage() {
   return (
     <>
-      <title>Checkout</title>
+      <title>Checkout Cart</title>
       <div className="checkout-header">
         <div className="header-content">
           <div className="checkout-header-left-section">
