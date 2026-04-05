@@ -1,6 +1,7 @@
 body {
   font-family: Roboto, Arial;
   color: rgb(33, 33, 33);
+  background: linear-gradient(135deg, #fff8f5 0%, #fde8dc 50%, #f5c4b3 100%);
   /* The <body> element has a default margin of 8px
      on all sides. This removes the default margins. */
   margin: 0;
@@ -28,20 +29,20 @@ button {
 
 .button-primary {
   color: rgb(255, 255, 255);
-  background-color: rgb(25, 135, 84);
+  background-color: rgb(98, 25, 135);
   border: 1px solid transparent;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: 0 2px 5px rgba(220, 220, 220, 0.5);
+  box-shadow: 0 2px 5px rgba(206, 171, 171, 0.5);
 }
 
 .button-primary:hover {
-  background-color: rgba(25, 135, 84, 0.75);
+  background-color: rgba(113, 25, 135, 0.75);
   border: 1px solid transparent;
 }
 
 .button-primary:active {
-  background: rgba(25, 135, 84, 0.5);
+  background: rgba(107, 25, 135, 0.5);
   border-color: transparent;
   box-shadow: none;
 }
@@ -77,7 +78,7 @@ button {
 }
 
 .link-primary {
-  color: rgb(25, 135, 84);
+  color: rgb(111, 25, 135);
   cursor: pointer;
 }
 
@@ -103,5 +104,5 @@ select {
 
 select:focus,
 input:focus {
-  outline: 2px solid rgb(25, 135, 84);
+  outline: 2px solid rgb(109, 25, 135);
 }
